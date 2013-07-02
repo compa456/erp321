@@ -1,11 +1,13 @@
-package com.service.impl.framework;
+package com.luyunfei.erp.service.framework.impl;
 
 import java.util.List;
 
-import com.erp.dao.framework.AuthorityDao;
-import com.erp.entity.framework.LoginAccount;
-import com.erp.service.framework.AuthorityService;
+import org.springframework.stereotype.Service;
 
+import com.luyunfei.erp.dao.framework.AuthorityDao;
+import com.luyunfei.erp.entity.framework.LoginAccount;
+import com.luyunfei.erp.service.framework.AuthorityService;
+@Service
 public class AuthorityServiceImpl implements AuthorityService {
 	
 	private AuthorityDao authorityDao;

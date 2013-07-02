@@ -1,10 +1,10 @@
-package com.erp.support;
+package com.luyunfei.erp.dao.base;
 
 import java.beans.PropertyVetoException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import com.erp.support.entity.DatabaseConfig;
+import com.luyunfei.erp.entity.base.DatabaseConfig;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class DaoSupport {

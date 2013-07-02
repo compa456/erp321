@@ -1,8 +1,10 @@
-package com.erp.service.framework;
+package com.luyunfei.erp.service.framework;
 
 import java.util.List;
 
-import com.erp.entity.framework.LoginAccount;
+import org.springframework.stereotype.Service;
+
+import com.luyunfei.erp.entity.framework.LoginAccount;
 
 public interface AuthorityService {
 	List<String> getMenuAuthorities();

@@ -1,18 +1,16 @@
-package com.erp.action.framework;
+package com.luyunfei.erp.web.action.framework;
 
 import java.util.List;
 
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.springframework.stereotype.Controller;
 
-import com.erp.entity.framework.LoginAccount;
-import com.erp.service.framework.AuthorityService;
-import com.erp.support.BaseAction;
-import com.erp.support.entity.WebConstant;
+import com.luyunfei.erp.entity.base.WebConstant;
+import com.luyunfei.erp.entity.framework.LoginAccount;
+import com.luyunfei.erp.service.framework.AuthorityService;
+import com.luyunfei.erp.web.action.base.BaseAction;
 @Controller
 @ParentPackage("json-default")
 @Results(value={

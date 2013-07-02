@@ -1,8 +1,8 @@
-package com.erp.dao.framework;
+package com.luyunfei.erp.dao.framework;
 
 import java.util.List;
 
-import com.erp.entity.framework.LoginAccount;
+import com.luyunfei.erp.entity.framework.LoginAccount;
 
 public interface AuthorityDao {
 	

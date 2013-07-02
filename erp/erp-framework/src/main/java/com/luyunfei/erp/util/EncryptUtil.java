@@ -1,4 +1,4 @@
-package com.erp.support.util;
+package com.luyunfei.erp.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

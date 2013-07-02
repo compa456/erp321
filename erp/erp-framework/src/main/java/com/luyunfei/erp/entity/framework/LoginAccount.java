@@ -1,4 +1,4 @@
-package com.erp.entity.framework;
+package com.luyunfei.erp.entity.framework;
 
 public class LoginAccount {
 	

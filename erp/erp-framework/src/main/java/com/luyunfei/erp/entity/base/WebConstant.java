@@ -1,4 +1,4 @@
-package com.erp.support.entity;
+package com.luyunfei.erp.entity.base;
 
 public class WebConstant {
 	

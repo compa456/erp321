@@ -1,4 +1,4 @@
-package com.erp.support.entity;
+package com.luyunfei.erp.entity.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package com.erp.dao.impl.framework;
+package com.luyunfei.erp.dao.framework.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.erp.dao.framework.AuthorityDao;
-import com.erp.entity.framework.LoginAccount;
-import com.erp.support.DaoSupport;
+import com.luyunfei.erp.dao.base.DaoSupport;
+import com.luyunfei.erp.dao.framework.AuthorityDao;
+import com.luyunfei.erp.entity.framework.LoginAccount;
 
 public class AuthorityDaoImpl extends DaoSupport implements AuthorityDao{
 
