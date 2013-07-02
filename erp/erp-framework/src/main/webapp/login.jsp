@@ -24,7 +24,7 @@
 					  },
 					  success: function(success){
 						  if(success){
-							  location.href="<c:url value='/framework/login!initMenuAuthorities.action'/>";
+							 // location.href="<c:url value='/framework/login!initMenuAuthorities.action'/>";
 						  }else{
 							  $('#msg').text("登陆失败：请检查用户名密码");
 						  }

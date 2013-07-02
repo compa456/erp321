@@ -7,10 +7,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.luyunfei.erp.dao.base.DaoSupport;
 import com.luyunfei.erp.dao.framework.AuthorityDao;
 import com.luyunfei.erp.entity.framework.LoginAccount;
-
+@Repository
 public class AuthorityDaoImpl extends DaoSupport implements AuthorityDao{
 
 	public void validateAccount(LoginAccount loginAccount,String md5Password){
